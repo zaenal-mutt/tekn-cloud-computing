@@ -1,44 +1,83 @@
-#Komputasi awan
-Komputasi awan atau komputasi gemawan (bahasa Inggris: cloud computing) adalah gabungan pemanfaatan teknologi komputer ('komputasi') dan pengembangan berbasis Internet ('awan'). Awan (cloud) adalah metafora dari internet, sebagaimana awan yang sering digambarkan di diagram jaringan komputer. Sebagaimana awan dalam diagram jaringan komputer tersebut, awan (cloud) dalam Cloud Computing juga merupakan abstraksi dari infrastruktur kompleks yang disembunyikannya.[1] Ia adalah suatu metoda komputasi di mana kapabilitas terkait teknologi informasi disajikan sebagai suatu layanan (as a service),[2] sehingga pengguna dapat mengaksesnya lewat Internet ("di dalam awan") [3] tanpa mengetahui apa yang ada didalamnya, ahli dengannya, atau memiliki kendali terhadap infrastruktur teknologi yang membantunya.[4] Menurut sebuah makalah tahun 2008 yang dipublikasi IEEE Internet Computing "Cloud Computing adalah suatu paradigma di mana informasi secara permanen tersimpan di server internet dan tersimpan secara sementara di komputer pengguna (client) termasuk di dalamnya adalah desktop, komputer tablet, notebook, komputer dinding, handheld, sensor-sensor, monitor dan lain-lain.
-Komputasi awan adalah suatu konsep umum yang mencakup SaaS, Web 2.0, dan tren teknologi terbaru lain yang dikenal luas, dengan tema umum berupa ketergantungan terhadap Internet untuk memberikan kebutuhan komputasi pengguna. Sebagai contoh, Google Apps menyediakan aplikasi bisnis umum secara daring yang diakses melalui suatu penjelajah web dengan perangkat lunak dan data yang tersimpan di server. Komputasi awan saat ini merupakan trend teknologi terbaru, dan contoh bentuk pengembangan dari teknologi Cloud Computing ini adalah iCloud
+Cloud computing
+Definition:
+Cloud computing is the on-demand availability of computer system resources, including data storage and computing power, without the need for direct user management. It relies on shared resources and often follows a pay-as-you-go model.
 
-#Manfaat komputasi awan
-Dari penjelasan tentang cloud computing diatas, ada banyak manfaat yang bisa kita ambil dari cloud computing, yaitu:
-Skalabilitas, yaitu dengan cloud computing kita bisa menambah kapasitas penyimpanan data kita tanpa harus membeli peralatan tambahan, misalnya hardisk dll. Kita cukup menambah kapasitas yang disediakan oleh penyedia layanan cloud computing.
-Aksesibilitas, yaitu kita bisa mengakses data kapanpun dan di manapun kita berada, asal kita terkoneksi dengan internet, sehingga memudahkan kita mengakses data disaat yang penting.
-Keamanan, yaitu data kita bisa terjamin keamanan nya oleh penyedia layanan cloud computing, sehingga bagi perusahaan yang berbasis IT, data bisa disimpan secara aman di penyedia cloud computing. Itu juga mengurangi biaya yang diperlukan untuk mengamankan data perusahaan.
-Kreasi, yaitu para user bisa melakukan/mengembangkan kreasi atau project mereka tanpa harus mengirimkan project mereka secara langsung ke perusahaan, tapi user bisa mengirimkan nya lewat penyedia layanan cloud computing.
-Kecemasan, ketika terjadi bencana alam data milik kita tersimpan aman di cloud meskipun hardisk atau gadget kita rusak
+Five Essential Characteristics of Cloud Computing (per NIST):
 
-#Layanan komputasi awan
-*Infrastructure as a Service (IaaS)
-Infrastructure as a Service adalah layanan komputasi awan yang menyediakan infrastruktur IT berupa CPU, RAM, storage, bandwith dan konfigurasi lain. Semua komponen tersebut digunakan untuk membangun komputer virtual. Komputer virtual dapat diinstal sistem operasi dan aplikasi sesuai kebutuhan. Keuntungan layanan IaaS ini adalah tidak perlu membeli komputer fisik sehingga lebih menghemat biaya. Konfigurasi komputer virtual juga bisa diubah sesuai kebutuhan. Misalkan saat storage hampir penuh, storage bisa ditambah dengan segera. Perusahaan yang menyediakan IaaS adalah Amazon EC2, Telkom Cloud dan BizNetCloud
-*Platform as a Service (PaaS)
-Platform as a Service adalah layanan yang menyediakan computing platform. Biasanya sudah terdapat sistem operasi, database, web server dan framework aplikasi agar dapat menjalankan aplikasi yang telah dibuat. Perusahaan yang menyediakan layanan tersebutlah yang bertanggung jawab dalam pemeliharaan computing platform ini. Keuntungan layanan PaaS ini bagi pengembang adalah mereka bisa fokus pada aplikasi yang mereka buat tanpa memikirkan tentang pemeliharaan dari computing platform. Contoh penyedia layanan PaaS adalah Amazon Web Service dan Windows Azure.
-*Software as a Service (SaaS)
-Software as a Service adalah layanan komputasi awan di mana kita bisa langsung menggunakan aplikasi yang telah disediakan. Penyedia layanan mengelola infrastruktur dan platform yang menjalankan aplikasi tersebut. Contoh layanan aplikasi E-mail yaitu Gmail, Yahoo Mail dan Microsoft Outlook sedangkan contoh aplikasi media sosial adalah Twitter, Facebook dan Google+. Keuntungan dari layanan ini adalah pengguna tidak perlu membeli lisensi untuk mengakses aplikasi tersebut. Pengguna hanya membutuhkan perangkat klien komputasi awan yang terhubung ke internet. Ada juga aplikasi yang mengharuskan pengguna untuk berlangganan agar bisa mengakses aplikasi yaitu Office 365 dan Adobe Creative Cloud
+On-demand self-service: Users can provision computing resources autonomously without human interaction with the service provider.
+Broad network access: Capabilities are available over the network and accessible through standard mechanisms.
+Resource pooling: Computing resources are pooled and dynamically allocated based on consumer demand.
+Rapid elasticity: Resources can be provisioned and released to scale quickly in response to demand.
+Measured service: Cloud systems automatically monitor, control, and optimize resource usage, providing transparency to both providers and consumers.
+History:
+Cloud computing traces its roots back to the 1960s with the concept of time-sharing. The term "cloud" was used in 1994 by General Magic and gained popularity in 1996 with Compaq's business plan. Major developments occurred in the 2000s, with Amazon Web Services (AWS) launching in 2002, Google Docs in 2006, and the emergence of Microsoft Azure, OpenStack, IBM SmartCloud, and Oracle Cloud.
 
-#Metoda atau cara kerja komputasi awan
-Berikut merupakan cara kerja penyimpanan data dan replikasi data pada pemanfaatan teknologi cloud computing. Dengan Cloud Computing komputer lokal tidak lagi harus menjalankan pekerjaan komputasi berat untuk menjalankan aplikasi yang dibutuhkan, tidak perlu menginstal sebuah paket perangkat lunak untuk setiap komputer, kita hanya melakukan installasi operating system pada satu aplikasi. Jaringan komputer yang membentuk awan (internet) menangani mereka sebagai gantinya. Server ini yang akan menjalankan semua aplikasi mulai dari E-mail, Pengolah kata, sampai program analisis data yang kompleks. Ketika pengguna mengakses awan (internet) untuk sebuah website populer, banyak hal yang bisa terjadi. Pengguna Internet Protokol (IP) misalnya dapat digunakan untuk menetapkan di mana pengguna berada (geolocation). Domain Name System (DNS) jasa kemudian dapat mengarahkan pengguna ke sebuah cluster server yang dekat dengan pengguna sehingga situs bisa diakses dengan cepat dan dalam bahasa lokal mereka. Pengguna tidak login ke server, tetapi mereka login ke layanan mereka menggunakan id sesi atau cookie yang telah didapatkan yang disimpan dalam browser mereka. Apa yang user lihat pada browser biasanya datang dari web server. Webservers menjalankan perangkat lunak dan menyajikan pengguna dengan cara interface yang digunakan untuk mengumpulkan perintah atau instruksi dari pengguna (klik, mengetik, upload dan lain-lain) Perintah-perintah ini kemudian diinterpretasikan oleh webservers atau diproses oleh server aplikasi. Informasi kemudian disimpan pada atau diambil dari database server atau file server dan pengguna kemudian disajikan dengan halaman yang telah diperbarui. Data di beberapa server disinkronisasikan di seluruh dunia untuk akses global cepat dan juga untuk mencegah kehilangan data.[butuh rujukan]
+Value Proposition:
+Cloud computing offers various benefits, including cost reductions, device and location independence, easier maintenance, multitenancy, improved performance, increased productivity, availability, scalability, and security.
 
-Web service adalah komponen perangkat lunak yang berdiri sendiri, memiliki URI unik (Uniform Resource Identifier), serta beroperasi melalui Internet terutama Web.[11] Web service telah memberikan mekanisme umum untuk pengiriman layanan, hal ini membuat Service-Oriented Architecture (SOA) ideal untuk diterapkan. Tujuan dari SOA adalah untuk mengatasi persyaratan yang bebas digabungkan, berbasis standar, dan Protocol-Independent Distributed Computing. Dalam SOA, sumber daya perangkat lunak yang dikemas sebagai "layanan," yang terdefinisi dengan baik, modul mandiri yang menyediakan fungsionalitas bisnis standar dan konteks jasa lainnya. Kematangan web service telah memungkinkan penciptaan layanan yang kuat yang dapat diakses berdasarkan permintaan, dengan cara yang seragam.
+Challenges and Limitations:
+Cloud computing faces challenges related to data security and privacy, reduced visibility and control over cloud resources, and the complexity of cloud migration.
 
-#Implementasi komputasi awan
-Ada tiga poin utama yang diperlukan dalam implementasi cloud computing, yaitu:
+Service Models:
+Cloud computing is categorized into three main service models:
 
-Computer front end
-Biasanya merupakan Komputer desktop biasa.
+Infrastructure as a Service (IaaS): Provides virtualized computing resources, such as servers, storage, and networking, to users who manage their operating systems and applications.
+Platform as a Service (PaaS): Offers a development environment to application developers, including an operating system, programming language execution environment, database, and web server.
+Software as a Service (SaaS): Delivers application software and databases to users via the cloud, eliminating the need for users to manage infrastructure and platform components.
+The article provides a comprehensive overview of cloud computing, explaining its fundamental concepts and evolution over time. It also highlights the benefits and challenges associated with cloud adoption, as well as the different service models available.
+cation with cloud services.
 
-Computer back end
-Computer back end dalam skala besar biasanya berupa server komputer yang dilengkapi dengan data center dalam rak-rak besar. Pada umumnya Computer back end harus mempunyai kinerja yang tinggi, karena harus melayani mungkin hinggga ribuan permintaan data.
+Services: MBaaS platforms offer various services, such as user management, push notifications, social media integration, and more. These services simplify the development process and enhance app functionality.
 
-Penghubung antara keduanya
-Penghubung keduanya bisa berupa jaringan LAN atau internet.
+Cloud Integration: MBaaS seamlessly integrates with cloud storage and computing resources, reducing the complexity of managing infrastructure for app developers.
 
-#Masalah yang dihadapi
-Dunia komputasi awan merupakan dunia baru karena tidak semua orang mengetahui teknologi baru tersebut. Karena masih baru tersebut muncul beberapa masalah dalam pengenalannya ke dunia luar. Contohnya komputasi awan merupakan sarana penyimpanan data melalui jaringan internet maka internet wajib bagi pemakai komputasi awan apabila terjadi masalah dalam internet maka akan menyebabkan komputer tersebut menjadi lambat karena proses yang terlalu lama. Masalah lain adalah jika suatu perusahaan menggunakan komputasi awan dalam penyimpanan datanya maka akan sangat tergantung pada vendor (penyedia layanan komputasi awan) karena perusahaan tersebut tidak mempunyai server langsung dalam komputasi awan dan juga apabila vendor mempunyai layanan backup yang buruk atau server pada vendor rusak akan menyebabkan kerugian besar pada perusahaan tersebut karena semua data yang tersimpan pada vendor akan mengalami masalah. Jika ingin menggunakan komputasi awan juga harus tersedia bandwidth yang besar karena data yang keluar masuk dalam sebuah akun tidak sedikit, maka dari itu dibutuhkan bandwidth yang berukuran besar agar mampu menampung data yang ditransfer. Masalah keamanan dan privasi menjadi masalah baru karena jika kita sudah meletakkan suatu data dalam internet maka itu bisa dilihat oleh masyarakat luas apabila data tersebut sangat rahasia maka bisa menyebabkan kefatalan dalam mengelola sesuatu. Selain itu belum banyak dukungan dari berbagai pihak karena beberapa masalah dalam komputasi awan. Beberapa masalah yang timbul disebabkan karena masih barunya teknologi komputasi awan dalam penyimpanan sebuah data dalam internet. Masalah lain yang dapat timbul selain diatas adalah dengan banyak para peretas yang muncul dari berbagai dunia dalam meretas internet membuat vendor harus berhati-hati dalam mengelola sumber daya yang dipakai dalam komputasi awan.
+Recent Development: MBaaS gained prominence relatively recently, with most startups in this space emerging after 2011. However, it has gained traction among enterprises looking to streamline their app development and management.
 
-#Contoh komputasi awan
--Google Drive
--Windows Azure
--Git Hub, dll
+Serverless Computing (Function-as-a-Service - FaaS):
+Serverless computing is another cloud computing model characterized by the following features:
+
+Managed Resources: In serverless computing, the cloud provider manages the allocation and scaling of virtual machines (VMs) automatically in response to application requests. Developers don't need to manage server provisioning.
+
+Billing Model: Serverless platforms charge users based on the actual resources consumed during the execution of functions, rather than a fixed hourly rate for VMs.
+
+Event-Driven: Serverless computing operates on an event-driven model, where functions are triggered by specific events, such as HTTP requests, database updates, or user actions.
+
+FaaS: Function-as-a-Service (FaaS) is a subset of serverless computing, where developers deploy individual functions to the cloud. These functions execute in response to specific events and can be written in various programming languages.
+
+Flexibility: Serverless architectures offer flexibility and cost-effectiveness because users only pay for the compute resources used during execution.
+
+Deployment Models in Cloud Computing:
+Cloud computing offers different deployment models, including:
+
+Private Cloud: This model is dedicated to a single organization, providing control and security but requiring significant investment in infrastructure.
+
+Public Cloud: Public cloud services are offered over the internet, allowing multiple customers to share resources. Security concerns exist but can be mitigated.
+
+Hybrid Cloud: Hybrid cloud combines elements of both public and private clouds, offering flexibility and scalability while maintaining control over sensitive data.
+
+Community Cloud: Community cloud is shared among organizations with similar concerns, such as security or compliance requirements.
+
+Distributed Cloud: Distributed clouds involve multiple machines or locations connected over a network, providing scalability and redundancy.
+
+Multi Cloud: Multi-cloud refers to using multiple cloud service providers for different services or applications to reduce reliance on a single vendor.
+
+Poly Cloud: Poly cloud involves using multiple public clouds to leverage specific services from each provider, optimizing functionality.
+
+These deployment models cater to various organizational needs, balancing factors like data security, control, and cost-efficiency.
+
+Other Cloud Computing Concepts:
+
+Big Data: Cloud computing facilitates the storage and analysis of large datasets, enabling applications such as business analytics and geospatial analysis.
+
+HPC (High-Performance Computing) Cloud: HPC cloud provides the computational power needed for resource-intensive tasks and scientific simulations.
+
+Cloud Architecture: Cloud architecture involves the design and organization of cloud systems, emphasizing communication between different cloud components.
+
+Cloud Engineering: Cloud engineering encompasses the systematic development, operation, and maintenance of cloud computing systems, addressing commercialization, standardization, and governance.
+
+Security and Privacy: Cloud computing raises concerns about data security and privacy, and solutions include encryption, identity management, and adherence to privacy policies.
+
+Market: The cloud computing market has seen significant growth, with global spending on cloud services reaching billions of dollars, and this trend is expected to continue.
+
+Similar Concepts: Cloud computing shares characteristics with client-server models, computer bureaus, grid computing, fog computing, utility computing, peer-to-peer networks, and more.
+
